@@ -1,0 +1,33 @@
+{
+  "name": "fichub-connector",
+  "version": "1.0.0",
+  "description": "An easy-to-use NPM library that enables developers to connect their applications to the FicHub.net api.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SysPoe/fichub-connector.git"
+  },
+  "author": "SysPoe",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/SysPoe/fichub-connector/issues"
+  },
+  "homepage": "https://github.com/SysPoe/fichub-connector#readme",
+  "files": [
+    "/dist"
+  ],
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "useTabs": true,
+    "trailingComma": "all",
+    "semi": true,
+    "tabWidth": 2,
+    "endOfLine": "lf",
+    "htmlWhitespaceSensitivity": "css",
+    "proseWrap": "always",
+    "quoteProps": "as-needed",
+    "singleQuote": false
+  }
+}
