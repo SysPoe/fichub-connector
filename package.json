@@ -8,8 +8,8 @@
     "type": "git",
     "url": "git+https://github.com/SysPoe/fichub-connector.git"
   },
-  "author": "SysPoe",
-  "license": "GPL-3.0-or-later",
+  "author": "SysPoe <panddplayz@outlook.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SysPoe/fichub-connector/issues"
   },
