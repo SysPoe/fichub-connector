@@ -5,9 +5,11 @@ export class Connector {
 
 	public constructor( endpoint: string | URL = new URL( "https://fichub.net/api/v0/" ) ) {
 		this.endpoint = new URL( endpoint );
-		if ( !this.test() ) {
-			throw new InvalidEndpointError( `Unable to access endpoint ${this.endpoint}` );
-		}
+		this.test().then( res => {
+			if ( res ) {
+				throw new InvalidEndpointError( `Unable to access endpoint ${this.endpoint}` );
+			}
+		} );
 	}
 
 	public async test( testPath: string | URL = "./meta", expectedResponse: string = JSON.stringify( {
